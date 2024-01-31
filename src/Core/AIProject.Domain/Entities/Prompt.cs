@@ -13,7 +13,6 @@ namespace AIProject.Domain.Entities
         public string PromptName { get; set; }
         public List<Chat> Chats { get; set; }
 
-
         // New chat -> kategori (prompt) -> (a1 - b2) Degree -> chat messages ==>
     }
 }

@@ -1482,7 +1482,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "AIProject.Domain": "1.0.0"
+          "AIProject.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0"
         },
         "compile": {
           "bin/placeholder/AIProject.Application.dll": {}
@@ -4046,7 +4047,8 @@
       "AIProject.Application >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.0",
+      "Microsoft.Extensions.DependencyInjection >= 8.0.0"
     ]
   },
   "packageFolders": {
@@ -4101,6 +4103,10 @@
             "version": "[8.0.0, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[8.0.0, )"
           }

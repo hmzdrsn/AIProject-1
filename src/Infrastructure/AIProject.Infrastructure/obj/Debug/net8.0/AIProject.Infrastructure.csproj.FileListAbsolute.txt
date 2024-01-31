@@ -11,6 +11,7 @@ D:\Visual Studio\source\repos\AIProject\src\Infrastructure\AIProject.Infrastruct
 D:\Visual Studio\source\repos\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.AssemblyInfoInputs.cache
 D:\Visual Studio\source\repos\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.AssemblyInfo.cs
 D:\Visual Studio\source\repos\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Visual Studio\source\repos\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.sourcelink.json
 D:\Visual Studio\source\repos\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.csproj.CopyComplete
 D:\Visual Studio\source\repos\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.dll
 D:\Visual Studio\source\repos\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\refint\AIProject.Infrastructure.dll

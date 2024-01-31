@@ -43,6 +43,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -118,14 +124,14 @@
         }
       }
     },
-    "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Presentation\\AIProject.WebApi\\AIProject.WebApi.csproj": {
+    "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Infrastructure\\AIProject.Infrastructure\\AIProject.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Presentation\\AIProject.WebApi\\AIProject.WebApi.csproj",
-        "projectName": "AIProject.WebApi",
-        "projectPath": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Presentation\\AIProject.WebApi\\AIProject.WebApi.csproj",
+        "projectUniqueName": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Infrastructure\\AIProject.Infrastructure\\AIProject.Infrastructure.csproj",
+        "projectName": "AIProject.Infrastructure",
+        "projectPath": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Infrastructure\\AIProject.Infrastructure\\AIProject.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ömer\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Presentation\\AIProject.WebApi\\obj\\",
+        "outputPath": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Infrastructure\\AIProject.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ömer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,6 +164,90 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Presentation\\AIProject.WebApi\\AIProject.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Presentation\\AIProject.WebApi\\AIProject.WebApi.csproj",
+        "projectName": "AIProject.WebApi",
+        "projectPath": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Presentation\\AIProject.WebApi\\AIProject.WebApi.csproj",
+        "packagesPath": "C:\\Users\\ömer\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Presentation\\AIProject.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ömer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Core\\AIProject.Application\\AIProject.Application.csproj": {
+                "projectPath": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Core\\AIProject.Application\\AIProject.Application.csproj"
+              },
+              "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Infrastructure\\AIProject.Infrastructure\\AIProject.Infrastructure.csproj": {
+                "projectPath": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Infrastructure\\AIProject.Infrastructure\\AIProject.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

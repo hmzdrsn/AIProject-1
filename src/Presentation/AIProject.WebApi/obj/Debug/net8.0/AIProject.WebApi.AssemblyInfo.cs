@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AIProject.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36f6cfdb9d56d96a5c8ef0d771f3b0aee0d33eb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("AIProject.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AIProject.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

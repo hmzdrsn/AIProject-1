@@ -17,6 +17,5 @@ namespace AIProject.Domain.Entities
         public string Phone { get; set; }
         public List<Chat> Chats { get; set; }   
 
-
     }
 }

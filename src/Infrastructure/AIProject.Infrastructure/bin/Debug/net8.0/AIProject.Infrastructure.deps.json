@@ -11,7 +11,8 @@
           "AIProject.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.0"
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0"
         },
         "runtime": {
           "AIProject.Infrastructure.dll": {}
@@ -915,7 +916,8 @@
       },
       "AIProject.Application/1.0.0": {
         "dependencies": {
-          "AIProject.Domain": "1.0.0"
+          "AIProject.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0"
         },
         "runtime": {
           "AIProject.Application.dll": {}
