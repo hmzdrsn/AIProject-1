@@ -142,3 +142,5 @@ D:\Visual Studio\source\repos\AIProject\src\Presentation\AIProject.WebApi\obj\De
 D:\Visual Studio\source\repos\AIProject\src\Presentation\AIProject.WebApi\obj\Debug\net8.0\AIProject.WebApi.pdb
 D:\Visual Studio\source\repos\AIProject\src\Presentation\AIProject.WebApi\obj\Debug\net8.0\AIProject.WebApi.genruntimeconfig.cache
 D:\Visual Studio\source\repos\AIProject\src\Presentation\AIProject.WebApi\obj\Debug\net8.0\ref\AIProject.WebApi.dll
+D:\Visual Studio\source\repos\AIProject\src\Presentation\AIProject.WebApi\bin\Debug\net8.0\MediatR.dll
+D:\Visual Studio\source\repos\AIProject\src\Presentation\AIProject.WebApi\bin\Debug\net8.0\MediatR.Contracts.dll

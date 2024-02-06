@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "GvxeExV0uaybnfB6SW6FeMYZr6pfEMOorAUja73DopCu6yKh4Sdf6hTLl9/TivjkSWZ1VGAK08D9RY61ANCLDw==",
+  "dgSpecHash": "Qu4CHXzTt26roVpdBLjStSmM+tACZmUJjOaEiShe1XqJZnqsLWkqaat+l/BzysQ+SJVKHXUvGaU5PgKyjSQuQA==",
   "success": true,
   "projectFilePath": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Infrastructure\\AIProject.Infrastructure\\AIProject.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ömer\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ömer\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\ömer\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\ömer\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\ömer\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\ömer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\ömer\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\ömer\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

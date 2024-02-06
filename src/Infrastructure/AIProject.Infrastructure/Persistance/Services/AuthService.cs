@@ -1,5 +1,7 @@
-﻿using AIProject.Application.Common.Interfaces;
+﻿using AIProject.Application.Common.Constants;
+using AIProject.Application.Common.Interfaces;
 using AIProject.Application.Common.Models;
+using AIProject.Application.Common.Models.BaseModels;
 using Microsoft.CodeAnalysis;
 using System;
 using System.Collections.Generic;
@@ -21,26 +23,50 @@ namespace AIProject.Infrastructure.Persistance.Services
             _tokenService = tokenService;
         }
 
-        public async Task<LoginResponse> LoginAsync(LoginRequest loginRequest)
+        public async Task<DataResponse<LoginResponse>> LoginAsync(LoginRequest loginRequest)
         {
             var user = await _userService.GetUserByEmail(loginRequest.Email);
+            // Kullanım
+            DataResponse<LoginResponse> response = new DataResponse<LoginResponse>();
 
-            if(user ==null)
+
+            if (user == null)
             {
-                return new() { AccessToken = "" };
+                response.Status = HttpStatusCode.NotFound;
+                response.Message = ResponseConst.UserNotFound;
+                response.Data = null;
             }
             else
             {
                 //Exception yazılacak 
-                LoginResponse response = new();
                 if (user.Email == loginRequest.Email && user.Password == loginRequest.Password)
                 {
                     var tokenInfo = await _tokenService.GenerateToken(new GenerateTokenRequest() { Email = loginRequest.Email});
-                    response.AccessToken = tokenInfo.Token;
-                    
+                  
+                    LoginResponse loginResponse = new()
+                    {
+                        AccessToken = tokenInfo.Token,
+
+                    };
+
+                    response.Data = loginResponse;
+                    response.Status = HttpStatusCode.OK;
+                    response.Message = ResponseConst.LoginSuccess;
                 }
-                return response;
+                else
+                {
+                   
+
+                    response.Data = null;
+                    response.Status = HttpStatusCode.NotFound;
+                    response.Message = ResponseConst.InvalidUsernameOrPassword;
+
+                }
+
             }
+
+            return response;
+
         }
     }
 }

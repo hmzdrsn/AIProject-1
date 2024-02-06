@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using AIProject.Infrastructure;
+using AIProject.Application;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,7 @@ builder.Services.AddSwaggerGen();
 
 //Registrations
 builder.Services.AddInfrastructure();
+builder.Services.AddApplication();
 
 
 builder.Services.AddDbContext<ApplicationContext>();
