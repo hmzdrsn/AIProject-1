@@ -10,3 +10,15 @@ D:\Visual Studio\source\repos\AIProject\src\Core\AIProject.Domain\obj\Debug\net8
 D:\Visual Studio\source\repos\AIProject\src\Core\AIProject.Domain\obj\Debug\net8.0\refint\AIProject.Domain.dll
 D:\Visual Studio\source\repos\AIProject\src\Core\AIProject.Domain\obj\Debug\net8.0\AIProject.Domain.pdb
 D:\Visual Studio\source\repos\AIProject\src\Core\AIProject.Domain\obj\Debug\net8.0\ref\AIProject.Domain.dll
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Domain\bin\Debug\net8.0\AIProject.Domain.deps.json
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Domain\bin\Debug\net8.0\AIProject.Domain.dll
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Domain\bin\Debug\net8.0\AIProject.Domain.pdb
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Domain\obj\Debug\net8.0\AIProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Domain\obj\Debug\net8.0\AIProject.Domain.AssemblyInfoInputs.cache
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Domain\obj\Debug\net8.0\AIProject.Domain.AssemblyInfo.cs
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Domain\obj\Debug\net8.0\AIProject.Domain.csproj.CoreCompileInputs.cache
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Domain\obj\Debug\net8.0\AIProject.Domain.sourcelink.json
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Domain\obj\Debug\net8.0\AIProject.Domain.dll
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Domain\obj\Debug\net8.0\refint\AIProject.Domain.dll
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Domain\obj\Debug\net8.0\AIProject.Domain.pdb
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Domain\obj\Debug\net8.0\ref\AIProject.Domain.dll

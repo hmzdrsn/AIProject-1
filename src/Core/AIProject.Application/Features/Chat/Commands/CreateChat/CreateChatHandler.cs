@@ -26,14 +26,13 @@ namespace AIProject.Application.Features.Chat.Commands.CreateChat
         }
 
         public async Task<DataResponse<CreateChatResponse>> Handle(CreateChatCommand request, CancellationToken cancellationToken)
-        {
+        {           
             var englishDegree = _EnglishDegreeService.GetById(request.EnglishDegreeId ,cancellationToken ).Result;
             var prompt = _promptService.GetById(request.PromptId, cancellationToken).Result;
             Domain.Entities.Chat chat = new();
 
-           chat.Id = Guid.NewGuid().ToString();//değişicek
-            
-         //   chat.CreatedAt = DateTime.Now;//değişicek
+            chat.Id = Guid.NewGuid().ToString();//değişicek
+            //chat.CreatedAt = DateTime.Now;//değişicek
             chat.Subject = request.Subject;
             chat.EnglishDegree = englishDegree;
             chat.Prompt = prompt;

@@ -3,9 +3,16 @@ using AIProject.Infrastructure;
 using AIProject.Application;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using AIProject.WebApi.Attributes;
+using Newtonsoft.Json;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddControllersWithViews(options =>
+    options.Filters.Add<ApiExceptionFilterAttribute>());
+//fluent validatoný & newtonsoft register
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

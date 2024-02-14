@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "47pPDP7RZBdcqe4tvg8kzD2EHVBAeXRNz5JYsPNk5+i8XTrlh7r709bW4EnWP06Sn8qU3S0hY9Eqq/B6Mu6jHg==",
+  "dgSpecHash": "968easRLBSptV3By8+EwvAfhfRih0EeTvbBXZDVUov8CzMUGPeWuvO5J24r6XXy+bfh0HtShNYWip6jtD77kCw==",
   "success": true,
-  "projectFilePath": "D:\\Visual Studio\\source\\repos\\AIProject\\src\\Core\\AIProject.Application\\AIProject.Application.csproj",
+  "projectFilePath": "F:\\repos\\Ai-Project\\AIProject\\src\\Core\\AIProject.Application\\AIProject.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ömer\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
-    "C:\\Users\\ömer\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\ömer\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\ömer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

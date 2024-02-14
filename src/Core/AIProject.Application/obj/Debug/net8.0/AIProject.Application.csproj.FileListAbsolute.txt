@@ -14,3 +14,19 @@ D:\Visual Studio\source\repos\AIProject\src\Core\AIProject.Application\obj\Debug
 D:\Visual Studio\source\repos\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\refint\AIProject.Application.dll
 D:\Visual Studio\source\repos\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\AIProject.Application.pdb
 D:\Visual Studio\source\repos\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\ref\AIProject.Application.dll
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\bin\Debug\net8.0\AIProject.Application.deps.json
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\bin\Debug\net8.0\AIProject.Application.dll
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\bin\Debug\net8.0\AIProject.Application.pdb
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\bin\Debug\net8.0\AIProject.Domain.dll
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\bin\Debug\net8.0\AIProject.Domain.pdb
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\AIProject.Application.csproj.AssemblyReference.cache
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\AIProject.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\AIProject.Application.AssemblyInfoInputs.cache
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\AIProject.Application.AssemblyInfo.cs
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\AIProject.Application.csproj.CoreCompileInputs.cache
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\AIProject.Application.sourcelink.json
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\AIProject.Application.csproj.CopyComplete
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\AIProject.Application.dll
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\refint\AIProject.Application.dll
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\AIProject.Application.pdb
+F:\repos\Ai-Project\AIProject\src\Core\AIProject.Application\obj\Debug\net8.0\ref\AIProject.Application.dll

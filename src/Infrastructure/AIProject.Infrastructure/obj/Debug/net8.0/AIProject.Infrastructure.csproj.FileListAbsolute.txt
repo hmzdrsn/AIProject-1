@@ -18,3 +18,23 @@ D:\Visual Studio\source\repos\AIProject\src\Infrastructure\AIProject.Infrastruct
 D:\Visual Studio\source\repos\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.pdb
 D:\Visual Studio\source\repos\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.genruntimeconfig.cache
 D:\Visual Studio\source\repos\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\ref\AIProject.Infrastructure.dll
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\bin\Debug\net8.0\AIProject.Infrastructure.deps.json
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\bin\Debug\net8.0\AIProject.Infrastructure.runtimeconfig.json
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\bin\Debug\net8.0\AIProject.Infrastructure.dll
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\bin\Debug\net8.0\AIProject.Infrastructure.pdb
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\bin\Debug\net8.0\AIProject.Application.dll
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\bin\Debug\net8.0\AIProject.Domain.dll
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\bin\Debug\net8.0\AIProject.Application.pdb
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\bin\Debug\net8.0\AIProject.Domain.pdb
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.csproj.AssemblyReference.cache
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.AssemblyInfoInputs.cache
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.AssemblyInfo.cs
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.csproj.CoreCompileInputs.cache
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.sourcelink.json
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.csproj.CopyComplete
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.dll
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\refint\AIProject.Infrastructure.dll
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.pdb
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\AIProject.Infrastructure.genruntimeconfig.cache
+F:\repos\Ai-Project\AIProject\src\Infrastructure\AIProject.Infrastructure\obj\Debug\net8.0\ref\AIProject.Infrastructure.dll

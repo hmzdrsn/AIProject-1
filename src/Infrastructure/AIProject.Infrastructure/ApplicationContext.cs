@@ -1,11 +1,7 @@
 ﻿using AIProject.Domain.Abstraction;
 using AIProject.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace AIProject.Infrastructure
 {
@@ -18,7 +14,6 @@ namespace AIProject.Infrastructure
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
 
             /*
 
