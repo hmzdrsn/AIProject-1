@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "968easRLBSptV3By8+EwvAfhfRih0EeTvbBXZDVUov8CzMUGPeWuvO5J24r6XXy+bfh0HtShNYWip6jtD77kCw==",
+  "dgSpecHash": "eV7k5RE0dIWASDytFA+ddYRNHKP0ib3WC6YaPoNj6ElB5D8WZtnBpNTtcCheq0GHLawG6B/MTcORonyRyULZIw==",
   "success": true,
   "projectFilePath": "F:\\repos\\Ai-Project\\AIProject\\src\\Core\\AIProject.Application\\AIProject.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

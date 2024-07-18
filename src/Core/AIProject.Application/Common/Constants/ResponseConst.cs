@@ -14,6 +14,7 @@ namespace AIProject.Application.Common.Constants
     public const string LoginSuccess = "Giriş başarılı!";
     public const string OperationFailed = "İşlem başarısız";
     public const string OperationSuccess = "İşlem başarılı!";
+    public const string ValidationFailed = "Doğrulama başarısız";
 
         //örnek 
         public const string AccessDenied = "Erişim reddedildi";
@@ -28,7 +29,6 @@ namespace AIProject.Application.Common.Constants
     public const string TimeoutError = "Zaman aşımı hatası";
     public const string DataExceedsLimit = "Veri sınırını aşıyor";
     public const string InvalidFormat = "Geçersiz format";
-    public const string ValidationFailed = "Doğrulama başarısız";
     public const string ResourceNotFound = "Kaynak bulunamadı";
     public const string Conflict = "Çakışma tespit edildi";
     public const string UnexpectedError = "Beklenmeyen bir hata oluştu";

@@ -2,17 +2,19 @@
 using AIProject.Application.Common.Models.BaseModels;
 using AIProject.Domain.Abstraction;
 using AIProject.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace AIProject.Infrastructure.Persistance.Services
 {
 
-    public class ChatService  : BaseService<Chat> , IChatService 
+    public class ChatService  : BaseService<Chat> , IChatService <Chat>
     {
         private readonly IUnitOfWork _unitOfWork;
         public ChatService(ApplicationContext applicationContext, IUnitOfWork unitOfWork) : base(applicationContext)
@@ -28,5 +30,9 @@ namespace AIProject.Infrastructure.Persistance.Services
             return request;
         }
 
+        public async Task<List<Chat>>? GetChats(CancellationToken cancellationToken, Expression<Func<Chat, bool>> filter=null)
+        {
+            return filter==null ? Table.ToList() : Table.Where(filter).ToList();
+        }
     }
 }

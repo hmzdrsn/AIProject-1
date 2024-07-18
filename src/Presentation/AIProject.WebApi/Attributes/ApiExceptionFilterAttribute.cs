@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
+//GERİ KALAN EXCEPTİONLAR YAZILACAK
 
 namespace AIProject.WebApi.Attributes
 {
@@ -36,20 +37,21 @@ namespace AIProject.WebApi.Attributes
             {
                 //typeof()
             };
-            if(!ignoreListForSendMail.Contains(type))
+            if (!ignoreListForSendMail.Contains(type))
             {
 
                 //SendMailException(context);
 
             }
 
-            if(!_exceptionHandlers.ContainsKey(type))
+
+            if (!_exceptionHandlers.ContainsKey(type))
             {
                 _exceptionHandlers[type].Invoke(context);
                 return;
             }
 
-            if(!context.ModelState.IsValid)
+            if (!context.ModelState.IsValid)
             {
                 HandleInvalidModelException(context);
                 return;
@@ -61,11 +63,12 @@ namespace AIProject.WebApi.Attributes
 
         public void HandleInvalidModelException(ExceptionContext context)
         {
-            ValidationProblemDetails? details = new(context.ModelState) {
-            
+            ValidationProblemDetails? details = new(context.ModelState)
+            {
+                
                 Type = "Allahın dediğin olur",
             };
-      
+
             context.Result = new BadRequestObjectResult(details);
 
             context.ExceptionHandled = true;
@@ -74,7 +77,7 @@ namespace AIProject.WebApi.Attributes
 
         public void HandleNotFoundException(ExceptionContext context)
         {
-            NotFoundException? exception =(NotFoundException)context.Exception;
+            NotFoundException? exception = (NotFoundException)context.Exception;
             ProblemDetails? details = new()
             {
                 Type = "Selamunaleykümmmm... :))))",
@@ -85,7 +88,6 @@ namespace AIProject.WebApi.Attributes
 
             context.ExceptionHandled = true;
         }
-
         public void HandleUnknownException(ExceptionContext context)
         {
             //NotFoundException? exception = (NotFoundException)context.Exception;

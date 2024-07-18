@@ -12,6 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews(options =>
     options.Filters.Add<ApiExceptionFilterAttribute>());
+//fluent validation
+
 //fluent validatoný & newtonsoft register
 
 builder.Services.AddControllers();

@@ -25,3 +25,20 @@ namespace AIProject.WebApi.Controllers
         }
     }
 }
+
+/*TOKEN BİLGİSİ İLE YAPILABİLECEKLER
+Kullanıcı Kimliği Kontrolü:
+
+Token içinde kullanıcı kimliği (user ID) bilgisi yer alıyorsa, bu bilgiyi alarak işlem yapan kullanıcının kim olduğunu öğrenebilirsiniz.
+Kullanıcı kimliğine göre belirli işlemleri sınırlayabilir veya izin verebilirsiniz.
+Yetkilendirme:
+
+Token içindeki roller veya yetkilendirme bilgilerini kontrol ederek kullanıcının belirli işlemleri yapmaya yetkili olup olmadığını belirleyebilirsiniz.
+Örneğin, sadece belirli bir role sahip kullanıcıların bu CreatePrompt işlemini yapmasına izin verebilirsiniz.
+İzleme ve Kayıt Tutma:
+
+Token içindeki bilgileri kullanarak işlem yapan kullanıcıların aktivitelerini izleyebilir ve kayıt altına alabilirsiniz.
+Bu, güvenlik ve hata ayıklama açısından önemli olabilir.
+Token Geçerlilik Kontrolü:
+
+Token'ın geçerliliğini kontrol ederek işlem yapmadan önce token'ın süresinin dolup dolmadığını veya geçerli olup olmadığını doğrulayabilirsiniz.*/

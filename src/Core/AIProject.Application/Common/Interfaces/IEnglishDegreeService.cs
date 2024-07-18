@@ -10,5 +10,6 @@ namespace AIProject.Application.Common.Interfaces
     public interface IEnglishDegreeService
     {
         Task<EnglishDegree> GetById(string id, CancellationToken cancellationToken);
+        bool IsEnglishDegreeIdValid(string degree);
     }
 }

@@ -49,6 +49,9 @@ namespace AIProject.Infrastructure
                 {
                     entry.Property(p => p.CreatedAt)
                         .CurrentValue = DateTime.Now;
+                    entry.Property(p => p.UpdatedAt)
+                        .CurrentValue = DateTime.Now;
+
                 }
                 if (entry.State == EntityState.Modified)
                 {

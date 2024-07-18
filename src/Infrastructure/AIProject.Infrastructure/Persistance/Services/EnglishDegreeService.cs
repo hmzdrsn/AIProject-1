@@ -20,8 +20,13 @@ namespace AIProject.Infrastructure.Persistance.Services
 
         public async Task<EnglishDegree> GetById(string id, CancellationToken cancellationToken)
         {
-            var data =  await Table.Where(x=>x.Id==id).FirstOrDefaultAsync();
+            var data =  await Table.Where(x=>x.Degree==id).FirstOrDefaultAsync();
             return data;
+        }
+
+        public bool IsEnglishDegreeIdValid(string degree)
+        {
+            return Table.Any(x => x.Degree == degree);
         }
     }
 }
